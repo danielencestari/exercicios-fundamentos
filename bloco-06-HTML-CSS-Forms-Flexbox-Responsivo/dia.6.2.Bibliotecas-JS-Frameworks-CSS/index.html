@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "bloco-06-HTML-CSS-Forms-Flexbox-Responsivo/bootstrap-5.1.0-dist/css/bootstrap.rtl.min.css">
+    <script src='bloco-06-HTML-CSS-Forms-Flexbox-Responsivo/jquery-3.6.0.min.js'></script>
+    <link src="bloco-06-HTML-CSS-Forms-Flexbox-Responsivo/bootstrap-5.1.0-dist/js/bootstrap.min.js">
+    <title>DIA 6.2</title>
+</head>
+<body>
+    <h1 class="display-4 text-muted"> FORMULÁRIO</h1>
+    <form action="" method="GET" enctype="multipart/form-data">
+      <div class="form-group">
+      <label for="nome-completo"> Nome Completo:
+        <input class="form-control" type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required>
+      </label>
+    </div>
+      <div class="form-group">
+      <label for="input-email"> E-mail:
+        <input class="form-control" type="email" name="email" id="input-email" placeholder="Digite seu e-mail" required>
+      </label>
+    </div>
+    <div class="form-group"> class="form-control"
+      <label for=""> Estado onde você mora:
+        <select name="estado" id="input-estado">
+          <option value="sp"> São Paulo</option>
+          <option value="sc"> Santa Caratina</option>
+          <option value="am" selected> Amazonas</option>
+        </select>
+      </label>
+    </div>
+    <div class="form-group">
+      <p>Selecione sua foto:</p>
+      <input class="form-control" type="file" name="foto" id="foto-perfil">
+    </form>
+    </div>
+
+    <div class="form-group">
+    <p>Escreva algo sobre você</p>
+    <textarea class="form-control" name="sobre mim" id="textarea1" cols="30" rows="5"></textarea>
+    </div>
+
+</body>
+</html>
