@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(2, 10, 19);
+    background-color: rgb(245, 241, 217);
+    font-family: 'Helvetica', 'Arial' sans-serif;
+    font-size: 22px; 
+    line-height: 1.5; 
+}
+
+
+.item {
+    background-color: rgb(226, 205, 181);
+    border: 1px solid rgb(199, 159, 27);
+    border-radius: 3px;
+    width: 70%;
+    padding: 15px;
+    margin: 5px auto;
+}
+
+.input-container{
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"]{
+    width: 100%;
+}
+
+.input-container fieldset {
+    padding: 10px;
+}
+
+.input-container text{
+    width: 200%;

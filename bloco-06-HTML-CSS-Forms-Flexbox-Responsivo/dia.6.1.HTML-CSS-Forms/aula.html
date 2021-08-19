@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AulaVivo-6.1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="speaker-form-header">
+    <h1>Submeter Palestra</h1>
+    <p>Quer submeter na <em> TrybeDev Mega Evento</em>?Preencha o formulario</p> 
+  </header>
+    
+  <form class="box" method="GET">
+
+    <div class="input-container">
+    <label for="full-name"> Nome: </label>
+    <input type="text" name="full-name" id="full-name">
+    </div>
+
+    <div class="input-container">
+      <label for="theme"> Tema da Palestra: </label>
+      <input type="text" name="theme" id="theme">
+    </div>
+
+    <div class="input-container">
+      <fieldset>
+        <legend>Tamanho da Camisa</legend>
+
+        <input type="radio" name="t-shirt-size" id="t-shirt-size-P" value="P">
+        <label for="t-shirt-size-P">Pequeno</label>
+
+        <input type="radio" name="t-shirt-size" id="t-shirt-size-M" value="M">
+        <label for="t-shirt-size-M">Médio</label>
+
+        <input type="radio" name="t-shirt-size" id="t-shirt-size-G" value="G">
+        <label for="t-shirt-size-G">Grande</label>
+
+
+      </fieldset>
+    </div>
+
+    <div class="input-container">
+      <label for="abstract">Descrição da Palestra: </label>
+      <textarea  name="abstract" id="abstract" rows="10">
+    </div>
+
+    <div class="input-container">
+      <label for="talk-type">Tipo de Apresentação</label>
+      <select name="talk-type" id="talk-type">
+        <option value="talk">/option>Palestra</option>
+        <option value="workshop">/option>Workshop</option>
+        <option value="other">/Outro</option>
+      </select>
+    </div>
+
+    <div class="input-container">
+      <input type="checkbox" name="availability" id="availability">
+      <label for="availability"> Confirmo que estarei disponível na data da apresentção </label>
+    <button type="submit">Submeter Palestra</button>
+  </form>
+</body>
+</html>

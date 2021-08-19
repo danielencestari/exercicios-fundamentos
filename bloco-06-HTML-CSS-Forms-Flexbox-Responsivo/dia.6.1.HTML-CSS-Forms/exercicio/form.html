@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um formulário de currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Currículo</h1>
+
+    <fieldset>
+      <legend>Dados Pessoais:</legend>
+
+      <div class="item">
+        <label for="nome-completo">Nome Completo:</label>
+        <input type="text" name="input-name" id="nome-completo" placeholder="Digite seu nome" maxlength="40" required>
+      </div>
+
+      <div class="item">
+        <label for="input-email"> E-mail:
+        <input type="email" name="input-email" id="input-email" placeholder="Digite seu e-mail" maxlength="50" required>
+      </label>
+      </div>
+
+      <div class="item">
+        <label for="input-CPF"> E-mail:
+        <input type="number" name="input-CPF" id="input-CPF" placeholder="Digite seu CPF" maxlength='11' required>
+        </label>
+      </div>
+
+      <div class="item">
+        <label for="adress"> Endereço:
+        <input type="text" name="input-adress" id="input-adress" placeholder="Digite seu endereço" maxlength='200' required>
+        </label>
+        <br>
+
+        <label for="casa">
+          <input type="radio" id="casa" name="tipo-residencia" value="casa" checked>Casa
+        </label>
+        <label for="apartamento">
+          <input type="radio" id="comida-2" name="tipo-residencia"  value="apartamento" checked>Apartamento
+        </label> 
+        <br>
+        <label for="city"> Cidade:
+        <input type="text" name="input-city" id="input-city" placeholder="Digite a cidade onde reside" maxlength='28' required>
+        </label>
+      </div>
+
+      <div class="item">
+        <label for=""> Estado onde você mora:
+        <select name="estado" id="input-estado">
+          <option value="sp"> São Paulo</option>
+          <option value="sc"> Santa Caratina</option>
+          <option value="am" selected> Amazonas</option>
+          <option value="rj"> Rio de Janeiro</option>
+          <option value="rs"> Rio Grande do Sul</option>
+          <option value="pa"> Pará</option>
+          <option value="pr"> Paraíba</option>
+          <option value="ce"> Ceará</option>
+          <option value="ba"> Bahia</option>
+        </select>
+      </div>
+    <fieldset>
+
+    <fieldset>
+      <legend>Ultima Experiência Profissional</legend>
+
+    </fieldset>
+
+
+</body>
+</html>
